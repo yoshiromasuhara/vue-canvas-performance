@@ -6,7 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     canvasnum: 3,
-    circlenum: 16,
+    circlenum: 8,
     startdraw: true
   },
   // getters: {

@@ -10,7 +10,7 @@
     <div class="form-group">
       <label for="circlenum">Circle Num</label>
       <select v-model="my_circlenum">
-        <option v-for="n in 30">{{n*n}}</option>
+        <option v-for="n in 20">{{n*n*n}}</option>
       </select>
     </div>
     <button class="btn btn-primary" @click.prevent="changeState()" >change status</button>
